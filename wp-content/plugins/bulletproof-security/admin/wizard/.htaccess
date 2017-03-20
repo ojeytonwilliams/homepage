@@ -1,0 +1,13 @@
+# BPS mod_authz_core IfModule BC
+<IfModule mod_authz_core.c>
+Require ip 127.0.0.1
+</IfModule>
+
+<IfModule !mod_authz_core.c>
+<IfModule mod_access_compat.c>
+<FilesMatch "(.*)$">
+Order Allow,Deny
+Allow from 127.0.0.1
+</FilesMatch>
+</IfModule>
+</IfModule>
