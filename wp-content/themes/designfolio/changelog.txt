@@ -1,0 +1,30 @@
+== Designfolio Changelog ==
+
+Designfolio created by David Gwyer, and Scott Bolinger
+Website: http://www.presscoders.com
+
+*1.23*
+
+* Updated for WP 3.5.1.
+* Changes to the theme options page. 
+
+*1.22*
+
+* Updated for WP 3.5.
+* Fixed bug which prevented them options page from rendering properly.
+
+*1.21*
+
+* General bug fixes and polish. Updated for WordPress 3.4.2.
+
+*1.2*
+
+* Minor CSS fixes. Licensing info updated. Isotope library removed.
+
+*1.1*
+
+* Some CSS issues resolved and global variable, class, and constant names made more unique.
+
+*1.0*
+
+* Initial release.

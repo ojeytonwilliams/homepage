@@ -1,0 +1,72 @@
+/* Sidebar Commander */
+#widget_area_txt_input {
+	width: 84%;
+}
+
+.optionsicon {
+    display: block;
+    float: left;
+    margin-right: 8px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 0px;
+}
+
+.sc_container h3 {
+    line-height: 0;
+    margin: 0px 0 1em;
+	padding-top: 8px;
+}
+
+.sc_container {
+	margin: 0px auto;
+	width: 285px;
+	padding: 0px 0px 0px 0px
+}
+
+#custom-widgets-width-trigger {
+	cursor:pointer;
+	padding: 10px 6px 10px 0px;
+	clear: both;
+	font-size: 11px;
+}
+
+#custom-widgets-width-toggle p {
+	margin-top: 0px;
+}
+
+#custom-widgets-width-toggle {
+	/*float: right;*/
+	padding: 0px 6px 0px 0px;
+	clear: both;
+}
+
+#no_widget_areas {
+	margin-top: 0px;
+	font-style:italic;
+	font-size: 11px;
+	color: #d3110d;
+}
+
+.sc_desc{
+	font-size: 11px;
+}
+
+/* Tooltips */
+
+.tooltip {
+display:none;
+background-color:#ffa;
+border:1px solid #cc9;
+padding:5px;
+font-size:13px;
+max-width: 400px;
+-moz-box-shadow: 2px 2px 11px #666;
+-webkit-box-shadow: 2px 2px 11px #666;
+cursor: help;
+}
+
+.tooltipimg {
+display: inline;
+cursor: help;
+}

@@ -1,0 +1,226 @@
+# Translation of Intergalactic in Albanian
+# This file is distributed under the same license as the Intergalactic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-03 03:41:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Intergalactic\n"
+
+#: content-home.php:24
+msgid "Read More"
+msgstr "Lexoni Më Tepër"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "nga %s"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Lëvizje te postimet"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Postime më të reja <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Postime më të vjetra"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Lëvizje te postimet"
+
+#: inc/extras.php:86
+msgid "Page %s"
+msgstr "Faqe %s"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Hidhu te lënda"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:128
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:87
+msgid "Sidebar"
+msgstr "Anështyllë"
+
+#: functions.php:47
+msgid "Social Links Menu"
+msgstr "Menu Lidhjesh Shoqërore"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Menuja Parësore"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Temë: %1$s nga %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Bazohet me krenari në %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:58
+msgid "% Comments"
+msgstr "% Koment"
+
+#: content.php:58
+msgid "1 Comment"
+msgstr "1 Koment"
+
+#: content.php:58
+msgid "Leave a comment"
+msgstr "Lini një koment"
+
+#: content.php:52
+msgid "Tagged %1$s"
+msgstr "Etiketuar si %1$s"
+
+#: content.php:42
+msgid "Posted in %1$s"
+msgstr "Postuar te %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:36 content-single.php:39 content.php:38 content.php:48
+msgid ", "
+msgstr ", "
+
+#: content-page.php:18 content-single.php:27 content.php:28
+msgid "Pages:"
+msgstr "Faqe:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Duket se nuk qemë në gjendje të gjenim ç&#8217;po kërkonit. Ndoshta mund t&#8217;ju ndihë kërkimi."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Na ndjeni, por nuk u përputh gjë me kriterin tuaj të kërkimit. Ju lutemi, riprovoni me ndonjë fjalëkyç tjetër."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gati për botimin e postimit tuaj të parë? <a href=\"%1$s\">Fillojani këtu</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nuk u Gjet Gjë"
+
+#: content-home.php:52 content-page.php:24 content-single.php:53 content.php:61
+msgid "Edit"
+msgstr "Përpunoni"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "Komentet janë mbyllur."
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Komentet Më të Reja &rarr;"
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentet Më të Vjetra"
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr "Lëvizje te komentet"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Një mendim mbi &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s mendime mbi &ldquo;%2$s&rdquo;"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Fjalosje"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Arkiva"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Audio"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Gjendje"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Lidhje"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Citime"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Figura"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galeri"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Anësore"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Vit: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Muaj: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Ditë: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Autor: %s"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hmm! Ajo faqe nuk gjendet dot."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Duket se nuk u gjet gjë në këtë vend. Të provohet një kërkim ndoshta?"

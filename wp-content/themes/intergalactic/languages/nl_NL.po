@@ -1,0 +1,268 @@
+# Translation of Intergalactic in Dutch
+# This file is distributed under the same license as the Intergalactic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-13 08:51:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Intergalactic\n"
+
+#. translators: %s: Name of current post
+#: content-home.php:30 content-home.php:43
+msgid "Read more %s"
+msgstr "Lees meer %s"
+
+#: content-home.php:24
+msgid "Read More"
+msgstr "Lees Meer"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/intergalactic/style.css
+msgid "Intergalactic is a stunning specimen for your personal blog. Bold featured images act as the backdrop to your text, giving you a high-contrast, readable theme that's perfect for making your content pop. The one-column layout provides a distraction-free environment for reading, while the slide-out menu keeps your navigation and secondary content readily accessible."
+msgstr "Intergalactic is een buitenaards mooi thema voor je persoonlijke blog. Een grote afbeelding vormt de achtergrond voor je tekst. Dit geeft een hoog contrast voor leesbaar thema dat je inhoud doet opvallen. De layout met enkele kolom zorgt voor een leeservaring zonder afleiding, terwijl het uitklapbare menu eenvoudige toegang geeft tot het navigatiepaneel en verdere inhoud."
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;Previous Post"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;Vorig bericht"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "Next Post&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "Volgend bericht&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Gepost op %s"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "door %s"
+
+#: inc/template-tags.php:169
+msgid "All %1$s posts"
+msgstr "Alle %1$s berichten"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Berichtnavigatie"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Oudere berichten"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Berichtennavigatie"
+
+#: inc/extras.php:86
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Spring naar inhoud"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:128
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:47
+msgid "Social Links Menu"
+msgstr "Socialelinksmenu"
+
+#: functions.php:87
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s door %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Met trots ondersteund door %s"
+
+#: content-single.php:43
+msgid "<span class=\"heading\">Tags:</span> %1$s"
+msgstr "<span class=\"heading\">Tags:</span> %1$s"
+
+#: content-single.php:47
+msgid "<span class=\"heading\">Categories:</span> %1$s"
+msgstr "<span class=\"heading\">Categorieën:</span> %1$s"
+
+#. translators: %s: Name of current post
+#: content.php:22
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees verder %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://nl.wordpress.org/"
+
+#: content.php:58
+msgid "% Comments"
+msgstr "% reacties"
+
+#: content.php:58
+msgid "1 Comment"
+msgstr "1 reactie"
+
+#: content.php:58
+msgid "Leave a comment"
+msgstr "Een reactie plaatsen"
+
+#: content.php:52
+msgid "Tagged %1$s"
+msgstr "Getagd %1$s"
+
+#: content.php:42
+msgid "Posted in %1$s"
+msgstr "Geplaatst in %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:36 content-single.php:39 content.php:38 content.php:48
+msgid ", "
+msgstr ", "
+
+#: content-page.php:18 content-single.php:27 content.php:28
+msgid "Pages:"
+msgstr "Pagina&#39;s:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden wat je zoekt. Misschien kan zoeken helpen."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, maar niets kwam overeen met je zoektermen. Gelieve het opnieuw te proberen met een aantal andere trefwoorden."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Begin hier</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: content-home.php:52 content-page.php:24 content-single.php:53 content.php:61
+msgid "Edit"
+msgstr "Bewerken"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwe reacties &rarr;"
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere reacties"
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Een gedachte over &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachtes over &ldquo;%2$s&rdquo;"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Chats"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Archieven"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Audio"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Statussen"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Links"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Gezegden"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Video&#39;s"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galerijen"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Opmerkingen"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Jaar: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Maand: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Dag: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Auteur: %s"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps! Die pagina kon niet worden gevonden."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Het lijkt erop dat er niets werd gevonden op deze locatie. Misschien een zoekopdracht  proberen?"

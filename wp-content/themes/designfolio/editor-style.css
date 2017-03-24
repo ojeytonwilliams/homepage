@@ -1,0 +1,292 @@
+/*
+Theme editor stylesheet.
+
+The Designfolio theme was designed and created by Scott Bolinger, and David Gwyer.
+Please visit www.presscoders.com for more great WordPress themes and Plugins!
+
+*/
+
+/* Only styles that apply to post/page content are included from style.css
+-------------------------------------------------------------- */
+
+* {
+font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 300;
+line-height: 1.625;
+}
+
+.alignleft {
+float: left;
+margin: 0 20px 10px 0;
+}
+
+.alignright {
+float: right;
+margin: 0 0 10px 20px;
+}
+
+.aligncenter {
+display: block;
+margin: 0 auto;
+}
+
+.clear {
+clear: both;
+}
+
+
+/*** Typography ***/
+
+
+h1, h2, h3, h4 {
+margin: 0 0 15px 0;
+padding: 0;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+}
+
+h1 {
+font-size: 36px;
+line-height: 42px;
+}
+
+h2 {
+font-size: 28px;
+line-height: 32px;
+}
+
+h3 {
+font-size: 18px;
+}
+
+h4 {
+font-size: 14px;
+}
+
+strong {font-weight: bold;}
+
+a:link, a:visited, a:hover {text-decoration: none;}
+
+abbr,acronym {
+border-bottom: 1px dotted;
+cursor: help;
+} 
+
+em {font-style: italic;}
+
+blockquote, .testimonial {
+font-style: italic;
+overflow: hidden;
+}
+
+blockquote {
+padding-left: 15px;
+margin: 15px;
+font-family: "Palatino Linotype", Palatino, Georgia, serif;
+font-size: 18px;
+color: #777;
+border-left: 1px dotted #777;
+}
+
+/*** Tables ***/
+
+
+th,td {
+border: 1px solid #ccc;
+padding: 8px;
+}
+
+th {
+font-weight:bold;
+text-align:center;
+text-transform: uppercase;
+}
+
+p,fieldset,table {margin-bottom: 15px;}
+
+
+/*** Lists ***/
+
+ol {margin-left: 20px;}
+ol li {list-style: decimal outside;}
+
+ul {
+margin: 0 0 10px 12px;
+list-style: none;
+}
+
+ul li {
+overflow: hidden;
+padding: 2px 0 5px 17px;
+background: url(images/bullet.png) no-repeat 0 10px;
+}
+
+ul li ul li { border-bottom: none; }
+
+
+/*** Boxes ***/
+
+.box {
+padding: 15px;
+margin: 15px 0;
+display: block;
+overflow: hidden;
+}
+
+.note, .warning, .alert, .error, .download {
+font-size: 13px;
+clear: both;
+margin: 10px 0;
+padding: 10px;
+overflow: hidden;
+}
+
+/*** Images ***/
+
+
+.post img {
+margin-bottom: 9px;
+}
+
+.post .post-thumb {
+margin-bottom: 10px;
+overflow: hidden;
+}
+
+.post .post-thumb img {
+margin: 0;
+display: block;
+}
+
+p.wp-caption-text {
+margin-bottom: 8px;
+text-align: center;
+font-size: 12px;
+}
+
+.gallery {
+clear: both;
+}
+
+
+/* Layouts
+-------------------------------------------------------------- */
+
+
+/*** Right/Left Sidebar ***/
+
+.right {
+float: right;
+}
+
+.left {
+float: left;
+}
+
+/*** Columns ***/
+
+.twocollt {
+float: left;
+display: block;
+width: 48%;
+margin: 0 15px 5px 0;
+}
+
+.twocolrt {
+display: block;
+margin: 0 0 5px 0;
+width: 48%;
+float: right;
+}
+
+.threecollt {
+float: left;
+display: block;
+width: 32%;
+margin: 0 12px 5px 0;
+}
+
+.threecolmid {
+display: block;
+float: left;
+width: 32%;
+margin: 0 12px 5px 0;
+}
+
+.threecolrt {
+display: block;
+margin: 0 0 5px 0;
+width: 32%;
+float: right;
+}
+
+.one-col .content .threecollt {
+margin-right: 20px;
+}
+
+/* Posts
+-------------------------------------------------------------- */
+
+.post {
+clear: both;
+overflow: hidden;
+margin-bottom: 35px;
+}
+
+
+/*** Titles ***/
+
+.entry-title {
+margin: 0 0 15px 0;
+padding: 2px 0 0 0;
+font-weight: normal;
+font-size: 28px;
+}
+
+.page-title {
+padding: 0;
+clear: both;
+margin: 0 0 20px 0 !important;
+font-weight: normal;
+font-size: 36px;
+}
+
+.entry-title a:hover, .page-title a:hover {
+text-decoration: none;
+}
+
+/*** Testimonials Widget/Shortcode ***/
+
+.pc_testimonial_widget .testimonial {
+margin: 15px 0;
+padding: 0;
+}
+
+.testimonial-name, .testimonial-company {
+font: bold 14px/18px Palatino, Georgia, serif;
+margin: 0 0 3px 0;
+}
+
+.testimonial-name {
+margin-top: 10px;
+}
+
+.testimonial-meta {
+padding-left: 30px;
+}
+
+.quote {
+background: url(images/quote.png) no-repeat;
+display: block;
+margin: 0;
+padding-left: 30px;
+}
+
+.quote p:last-child {
+margin-bottom: 0;
+}
+
+div.testimonial-meta img {
+width: 50px;
+height: 50px;
+}

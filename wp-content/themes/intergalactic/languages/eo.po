@@ -1,0 +1,247 @@
+# Translation of Intergalactic in Esperanto
+# This file is distributed under the same license as the Intergalactic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-03 03:41:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Intergalactic\n"
+
+#. translators: %s: Name of current post
+#: content-home.php:30 content-home.php:43
+msgid "Read more %s"
+msgstr "Legi pli %s"
+
+#: content-home.php:24
+msgid "Read More"
+msgstr "Legi pli"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "de %s"
+
+#: inc/template-tags.php:169
+msgid "All %1$s posts"
+msgstr "Ĉiuj %1$s-afiŝoj"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Serĉrezultoj por: %s"
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Afiŝita en %s"
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;Previous Post"
+msgstr "<span class=\"meta-nav\">&larr;</span>&nbsp;Antaŭa afiŝo"
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid "Next Post&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr "Sekva afiŝo&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Navigado tra afiŝoj"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pli novaj afiŝoj <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Pli malnovaj afiŝoj"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Navigado tra afiŝoj"
+
+#: inc/extras.php:86
+msgid "Page %s"
+msgstr "Paĝo %s"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Iri rekte al enhavo"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:128
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:87
+msgid "Sidebar"
+msgstr "Flankpanelo"
+
+#: functions.php:47
+msgid "Social Links Menu"
+msgstr "Menuo por sociaj ligoj"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Ĉefa menuo"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Etoso: %1$s de %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Fiere kreata de %s"
+
+#. translators: %s: Name of current post
+#: content.php:22
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Legi plu %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-single.php:43
+msgid "<span class=\"heading\">Tags:</span> %1$s"
+msgstr "<span class=\"heading\">Etikedoj:</span> %1$s"
+
+#: content-single.php:47
+msgid "<span class=\"heading\">Categories:</span> %1$s"
+msgstr "<span class=\"heading\">Kategorioj:</span> %1$s"
+
+#: content.php:58
+msgid "% Comments"
+msgstr "% Komentoj"
+
+#: content.php:58
+msgid "1 Comment"
+msgstr "1 komento"
+
+#: content.php:58
+msgid "Leave a comment"
+msgstr "Komenti"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:36 content-single.php:39 content.php:38 content.php:48
+msgid ", "
+msgstr ", "
+
+#: content-page.php:18 content-single.php:27 content.php:28
+msgid "Pages:"
+msgstr "Paĝoj:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Ŝajnas, ke ni ne povas trovi tion. Eble serĉo helpos."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Bedaŭrinde, nenio kongruis kun viaj serĉaj kriterioj. Bonvolu provi denove, uzante malsamajn vortojn."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ĉu preta por publikigi vian unuan afiŝon? <a href=\"%1$s\">Eku ĉi tie</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nenio estis trovita"
+
+#: content-home.php:52 content-page.php:24 content-single.php:53 content.php:61
+msgid "Edit"
+msgstr "Redakti"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "Komentado estas fermita."
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Pli novaj komentoj &rarr;"
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Pli malnovaj komentoj"
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr "Navigado tra komentoj"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Unu penso pri &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensoj pri &ldquo;%2$s&rdquo;"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Arkivoj"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Statoj"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Ligiloj"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Citaĵoj"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Videoj"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Bildoj"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galerioj"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Mencioj"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Jaro: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Monato: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Tago: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Aŭtoro: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Ŝajne nenio estis trovita je ĉi tiu loko. Ĉu eble provi serĉon?"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ne eblas trovi tiun paĝon."

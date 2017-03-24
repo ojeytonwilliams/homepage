@@ -1,0 +1,231 @@
+# Translation of Intergalactic in Italian
+# This file is distributed under the same license as the Intergalactic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-03 03:41:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Intergalactic\n"
+
+#: content-home.php:24
+msgid "Read More"
+msgstr "Continua a leggere"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "da %s"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Navigazione articolo"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articoli più recenti <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articoli più vecchi"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Navigazione articoli"
+
+#: inc/extras.php:86
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:128
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "acceso"
+
+#: functions.php:87
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: functions.php:47
+msgid "Social Links Menu"
+msgstr "Menù social link"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Menu principale"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s di %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Funziona grazie a %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#. translators: %s: Name of current post
+#: content.php:22
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua a leggere %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:58
+msgid "% Comments"
+msgstr "% commenti"
+
+#: content.php:58
+msgid "1 Comment"
+msgstr "1 commento"
+
+#: content.php:58
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: content.php:52
+msgid "Tagged %1$s"
+msgstr "Tag %1$s"
+
+#: content.php:42
+msgid "Posted in %1$s"
+msgstr "Inviato su %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:36 content-single.php:39 content.php:38 content.php:48
+msgid ", "
+msgstr ", "
+
+#: content-page.php:18 content-single.php:27 content.php:28
+msgid "Pages:"
+msgstr "Pagine: "
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Non riusciamo a trovare quello che cerchi. Forse eseguire una ricerca potrebbe essere di aiuto."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Spiacente, nulla corrisponde i termini della tua ricerca. Riprova con parole chiave diverse."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Sei pronto a pubblicare il tuo primo articolo? <a href=\"%1$s\">Comincia da qui</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nessun risultato"
+
+#: content-home.php:52 content-page.php:24 content-single.php:53 content.php:61
+msgid "Edit"
+msgstr "Modifica"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Commenti più recenti &rarr;"
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Commenti meno recenti"
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensiero su &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensieri su &ldquo;%2$s&rdquo;"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Chat"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Archivi"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Audio"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Stati"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Link"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Citazioni"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Video"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Immagini"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Incisi"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Anno: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Mese: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Giorno: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Autore: %s"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Impossibile trovare la pagina."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Sembra che non ci sia nulla. Provare una ricerca?"

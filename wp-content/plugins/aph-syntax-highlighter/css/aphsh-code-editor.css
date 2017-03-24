@@ -1,0 +1,221 @@
+pre {
+	font-family: lucida, console, consoleas, monospace;
+	font-size: 80%;
+    background: #F4F4F4 !important;
+    border: 1px solid #CCC !important;
+    margin-bottom: 1.5em !important;
+    padding: 0.3em 0.5em !important;
+    min-height: 1.5em;
+	overflow: auto;
+}
+/**
+* Wrap
+*/
+.aphsh-overlay {
+	display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000000;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    opacity: .7;
+    min-height: 360px;
+}
+
+.aphsh-editor-wrap {
+	display: none;
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,.3);
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin-left: -250px;
+    margin-top: -125px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 100105;
+    -webkit-transition: height .2s,margin-top .2s;
+    transition: height .2s,margin-top .2s;
+    margin-top: -250px;
+    top: 50%;
+    /* bottom: 10px; */
+}
+
+/**
+* Header
+*/
+.aphsh-editor-title {
+	background: #fcfcfc;
+    border-bottom: 1px solid #dfdfdf;
+    height: 36px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    padding: 0 36px 0 16px;
+    top: 0;
+    right: 0;
+    left: 0;
+	position: absolute;
+	z-index: 5;
+}
+.aphsh-editor-code {
+	width: 100%;
+	min-height: 310px;
+	font-family: monospace;
+}
+.aphsh-editor-closebtn {
+	color: #666;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: 0 0;
+    border: none;
+	cursor: pointer;
+}
+.aphsh-editor-closebtn:before {
+    font: 400 20px/36px dashicons;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 36px;
+    height: 36px;
+    content: "\f158";
+}
+
+/**
+* Body
+*/
+.aphsh-clearfix::before,
+.aphsh-clearfix::after {
+	content: "";
+	display: block;
+	float: none;
+	clear:both;
+}
+#aphsh-language {
+	float: left;
+}
+.aphsh-te-section {
+	width: auto;
+	float:left;
+}
+.aphsh-small-text {
+	width: 75px;
+}
+.aphsh-medium-text {
+	width: 150px;
+}
+.aphsh-editor-code {
+	font-size: 13px !important;
+	white-space: nowrap;
+}
+.aphsh-editor-body {
+	padding: 10px 15px 10px;
+	position: absolute;
+	top: 36px;
+	left:0;
+	right:0;
+	bottom: 44px;
+	overflow: auto;
+}
+.aphsh-editor-body label{
+	width: 130px;
+	display: block;
+	float:left;
+}
+.aphsh-editor-body h2 {
+	padding-left: 0 !important;
+}
+#aphsh-other-options {
+	cursor: pointer;
+}
+.aphsh-editor-body i{
+	margin-right: 8px;
+}
+.aphsh-override-options {
+	width: 100%;
+	border: 0;
+    border-collapse: collapse;
+}
+.aphsh-override-options td {
+	border-bottom: 1px solid #CCCCCC;
+    padding: 5px;
+}
+.aphsh-override-options td:first-child {
+	text-align:center;
+}
+.aphsh-override-options th {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+    background: #e8e8e8;
+    padding: 5px 10px;
+}
+.aphsh-inline-options {
+    margin-bottom: 7px;
+}
+.aphsh-inline-options span,
+.aphsh-inline-options select,
+.aphsh-inline-options input {
+	float:left;
+	margin-right: 5px;
+	display: inline-block;
+}
+.aphsh-inline-options span {
+    padding: 5px 0;
+}
+
+.aphsh-options-bottom {
+	padding-top: 10px;
+	border-top: 1px solid #CCCCCC;
+}
+.aphsh-options-bottom{
+    width: 100%;
+}}
+.aphsh-small-title{
+	padding-left: 0;
+}
+/**
+* Footer
+*/
+.aphsh-editor-submitbox {
+	padding: 8px 16px;
+    background: #fcfcfc;
+    border-top: 1px solid #dfdfdf;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.aphsh-small-text {
+	width: 60px;
+    padding: 3px 5px;
+}
+.aphsh-insert-btn{
+	float: right;
+}
+.aphsh-cancel-btn{
+	float: left;
+}
+
+@media screen and (max-height: 520px)
+{
+	.aphsh-editor-wrap  {
+		display: none;
+		height: auto;
+		margin-top: 0;
+		top: 10px;
+		bottom: 10px;
+	}
+	
+	.aphsh-editor-body {
+		overflow: auto;
+	}
+}

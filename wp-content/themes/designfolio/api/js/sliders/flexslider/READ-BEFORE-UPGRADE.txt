@@ -1,0 +1,29 @@
+Added this on line 644 to help with showing whole slider items rather than a tiny bit of the next slide appearing. The auto calculation does not round. My update rounds it and (for us at least) seems to work better. My modification is: slider.itemW = Math.ceil(slider.itemW);
+
+Update: FS 2.0 has a new property that allows you to switch off CSS3 transitions without hacking the core code!
+
+---
+
+If using FS 1.8x:
+
+There needs to be one value changed in the Flexslider script to make it compatible with our themes. This change can be made in the full and minified versions of the script.
+
+The fix basically makes the script use normal transitions and NOT css3 transitions if available in the browser.
+
+Look for this line near the start of the script:
+
+slider.transitions = "webkitTransition" in document.body.style;
+
+or
+
+d.transitions="webkitTransition" in document.body.style;
+
+and replace with
+
+slider.transitions = null;
+
+or
+
+d.transitions=null;
+
+That's it!

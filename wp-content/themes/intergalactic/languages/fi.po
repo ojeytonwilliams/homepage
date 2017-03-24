@@ -1,0 +1,231 @@
+# Translation of Intergalactic in Finnish
+# This file is distributed under the same license as the Intergalactic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-03 03:41:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Intergalactic\n"
+
+#. translators: %s: Name of current post
+#: content-home.php:30 content-home.php:43
+msgid "Read more %s"
+msgstr "Lue lisää %s"
+
+#: content-home.php:24
+msgid "Read More"
+msgstr "Lue lisää"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Hakutulokset kohteelle: %s"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Artikkelien selaus"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Uudemmat artikkelit <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Vanhemmat artikkelit"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Artikkelien selaus"
+
+#: inc/extras.php:86
+msgid "Page %s"
+msgstr "Sivu %s"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Siirry sisältöön"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:128
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:47
+msgid "Social Links Menu"
+msgstr "Somevalikko"
+
+#: functions.php:87
+msgid "Sidebar"
+msgstr "Sivupalkki"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Ensisijainen valikko"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Teema: %1$s tekijä %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Voimanlähteenä %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#. translators: %s: Name of current post
+#: content.php:22
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Jatka lukemista %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:58
+msgid "% Comments"
+msgstr "% kommenttia"
+
+#: content.php:58
+msgid "1 Comment"
+msgstr "1 kommentti"
+
+#: content.php:58
+msgid "Leave a comment"
+msgstr "Jätä kommentti"
+
+#: content.php:52
+msgid "Tagged %1$s"
+msgstr "Avainsanat %1$s"
+
+#: content.php:42
+msgid "Posted in %1$s"
+msgstr "Kategoriassa %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:36 content-single.php:39 content.php:38 content.php:48
+msgid ", "
+msgstr ", "
+
+#: content-page.php:18 content-single.php:27 content.php:28
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on apua."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Pahoittelut mutta mitään ei löytynyt hakuehdoillasi. Kokeile uudelleen joillakin toisilla hakusanoilla."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Oletko valmis julkaisemaan ensimmäisen kirjoituksesi? <a href=\"%1$s\">Aloita tästä</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Mitään ei löytynyt"
+
+#: content-home.php:52 content-page.php:24 content-single.php:53 content.php:61
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "Kommentointi on suljettu."
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Uudemmat kommentit &rarr;"
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Vanhemmat kommentit"
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr "Kommenttien selaus"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Yksi kommentti artikkeliin &rdquo;%2$s&rdquo;"
+msgstr[1] "%1$s kommenttia artikkeliin &rdquo;%2$s&rdquo;"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Keskustelut"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Arkistot"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Äänet"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Tilat"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Linkit"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Lainaukset"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Videot"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Kuvat"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Galleriat"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Sivuhuomautukset"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Vuosi: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Kuukausi: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "Päivä: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Kirjoittaja: %s"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Tätä sivua ei löydy."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Näyttää siltä että täällä ei ole mitään. Kokeilepa hakua?"

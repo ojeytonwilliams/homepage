@@ -1,0 +1,242 @@
+# Translation of Intergalactic in Russian
+# This file is distributed under the same license as the Intergalactic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-12-23 10:59:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Intergalactic\n"
+
+#. translators: %s: Name of current post
+#: content-home.php:30 content-home.php:43
+msgid "Read more %s"
+msgstr "Читать далее %s"
+
+#: content-home.php:24
+msgid "Read More"
+msgstr "Читать далее"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#: inc/template-tags.php:82
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано %s"
+
+#: inc/template-tags.php:87
+msgctxt "post author"
+msgid "by %s"
+msgstr "автором %s"
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Навигация по записям"
+
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Навигация по записям"
+
+#: inc/extras.php:86
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Lato, translate this to 'off'. Do not translate
+#. * into your own language.
+#: functions.php:128
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:87
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: functions.php:47
+msgid "Social Links Menu"
+msgstr "Меню социальных ссылок"
+
+#: functions.php:46 header.php:38
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: footer.php:17
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s, автор: %2$s."
+
+#: footer.php:15
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
+#: footer.php:15
+msgid "http://wordpress.org/"
+msgstr "http://ru.wordpress.org/"
+
+#. translators: %s: Name of current post
+#: content.php:22
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:58
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: content.php:58
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: content.php:58
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: content.php:52
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+#: content.php:42
+msgid "Posted in %1$s"
+msgstr "Рубрика: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:36 content-single.php:39 content.php:38 content.php:48
+msgid ", "
+msgstr ", "
+
+#: content-page.php:18 content-single.php:27 content.php:28
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: content-home.php:52 content-page.php:24 content-single.php:53 content.php:61
+msgid "Edit"
+msgstr "Изменить"
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: Один комментарий"
+msgstr[1] "%2$s: %1$s комментария"
+msgstr[2] "%2$s: %1$s комментариев"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Чаты"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "Архивы"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "Аудиозаписи"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "Статусы"
+
+#: archive.php:54
+msgid "Links"
+msgstr "Ссылки"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "Видео"
+
+#: archive.php:45
+msgid "Images"
+msgstr "Изображения"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "Галереи"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "Заметки"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка. Страница не найдена."
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."

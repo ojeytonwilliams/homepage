@@ -1,0 +1,16 @@
+/* Fixed width layout stylesheet */
+
+#header-container .fixed {
+width: 900px;
+background-color: none;
+}
+
+#footer-container .fixed {
+width: 900px;
+}
+
+#nav-wrap .fixed {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}

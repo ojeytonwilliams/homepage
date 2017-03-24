@@ -1,0 +1,301 @@
+/*
+
+Designfolio black color scheme.
+All tags that have a color attribute are located here.
+
+*/
+
+body {
+background: #fafafa;
+color: #373737;
+}
+
+th, a:link, a:visited, h1, h2, h3, .site-title, .page-title, .entry-title, .nivo-caption a, footer .pc_info_widget .phone, #container .pc_info_widget .phone, .comment-author {
+color: #31475d;
+}
+
+a:hover {
+color: #333;
+text-decoration: underline;
+}
+
+#header-container, .footer-widget-container {
+background: #000000;
+}
+
+#header-container:after {
+content: "";
+display: block;
+height: 0;
+background: none;
+border-bottom: 1px dotted #333;
+position: relative;
+bottom: -4px;
+}
+
+#header-container nav.primary-menu ul li.current_page_item > a:after {
+content: "";
+border-top-color: #333;
+}
+
+footer {
+padding-top: 4px;
+border-top: 1px dotted #000000;
+}
+
+#header-container nav.primary-menu {
+border-top: 1px solid #555;
+background: #333;
+}
+
+#header-container nav li a {
+color: #fff;
+font-weight: normal;
+}
+
+#header-container nav li a:hover, #header-container nav ul ul li a:hover {
+color: #999;
+}
+
+nav ul ul {
+background: #333;
+color: #fff;
+}
+
+#site-title a {
+color: #ffffff;
+}
+
+#site-description {
+color: #e8eaf0;
+}
+
+#header-container nav.secondary-menu {
+background: #333;
+}
+
+#before-content .flex-container {
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+}
+
+.flex-direction-nav {
+border-top: 1px dotted #000000;
+}
+
+#before-content .flex-direction-nav {
+border-top: none;
+}
+
+.flex-direction-nav a.flex-prev {
+background: url(../../../images/arrow-lt.png) no-repeat center center #000000;
+}
+
+.flex-direction-nav a.flex-next {
+background: url(../../../images/arrow-rt.png) no-repeat center center #000000;
+}
+
+.flex-direction-nav a.flex-prev:active, .flex-direction-nav a.flex-next:active {
+background-color: #31475d;
+}
+
+ol.flex-control-nav li a {
+background: #fff;
+border: 2px solid #000000;
+}
+
+ol.flex-control-nav li a.flex-active {
+background: #000000;
+border: none;
+}
+
+.widget-title {
+color: #31475d;
+}
+
+footer .widget-title {
+border-bottom: 1px dotted #ccc;
+color: #fff;
+}
+
+.content ul li, .widget ul li {
+border-bottom: 1px dotted #555;
+}
+
+.pc_content_slider_widget ul li {
+border-bottom: none;
+}
+
+#footer-widget-area ul li {
+border-bottom: 1px dotted #ccc;
+}
+
+.note, .warning, .alert, .error, .download {
+color: #444;
+}
+
+.note {
+background: #eee;
+border: 1px solid #ccc;
+}
+
+.warning, .alert {
+background: #fffbbc;
+border: 1px solid #E6DB55;
+}
+
+.error {
+background: #ffebe8;
+border: 1px solid #C00;
+}
+
+.download {
+background: #e4ebf8;
+border: 1px solid #2e68d4;
+}
+
+.line { 
+border-top: 1px dotted #000000;
+}
+
+a.button, #searchsubmit, #submit, .submit, a.post-edit-link, a.more-link {
+color: #ffffff;
+}
+
+.post, .sidebar-container .widget {
+border-bottom: 1px dotted #000000;
+}
+
+.post-date {
+background: #31475d;
+color: #fff;
+}
+
+.post-meta p {
+color: #777;
+}
+
+p.author {
+color: #31475d;
+}
+
+p.author:after {
+content: "";
+background: #999;
+}
+
+.post-meta span.comments, .post-meta span.tags {
+border-left: 1px solid #999;
+}
+
+.comment-meta a {
+color: #888888;	
+}
+
+.avatar {
+border: 2px solid #fff;
+}
+
+div.reply a {
+color: #888888;
+}
+
+.comment-body:before {
+content: "";
+border-left-color: #e8eaf0;
+}
+
+.quote {
+background: #e8eaf0;
+}
+
+.quote:before {
+content: "";
+border-right-color: #e8eaf0;
+}
+
+#author, #email, #url, #comment {
+color: #31475d;
+}
+
+.form-allowed-tags {
+color: #999;
+}
+
+#header-widget-area .widget {
+color: #fff;
+}
+
+header .pc_info_widget a {
+color: #eee;
+}
+
+header .pc_info_widget {
+color: #eee;
+}
+
+#body-container .pc_opt_in {
+border: 2px solid #866f31;
+}
+
+textarea, input, .comment-body, li.pingback {
+background: #e8eaf0;
+border: none;
+}
+
+.defaultbox {
+background: #e8eaf0;
+}
+
+.comment-body:before {
+content: "";
+border-left-color: #e8eaf0;
+}
+
+#body-container .twtr-widget .twtr-tweet a {
+color: #31475d !important;
+}
+
+#body-container .twtr-widget .twtr-doc, #body-container .twtr-widget .twtr-hd a, #body-container .twtr-widget h3, #body-container .twtr-widget h4  {
+background-color: #333 !important;
+}
+
+/** Footer **/
+
+
+footer .pc_info_widget .phone, footer .pc_twitter_feed_widget {
+color: #fff;
+}
+
+.footer-widget-container {
+color: #eeeeee;
+}
+
+.footer-widget-container a, .footer-widget-container a:visited {
+color: #eeeeee;
+}
+
+.footer-widget-container a:hover {
+color: #fff;
+}
+
+.footer-widget-container .quote {
+color: #444;
+}
+
+/* Black (default) */
+.defaultbtn, .btn, #searchsubmit, #submit, .submit, .post-edit-link, .more-link, input[type="submit"], ul#filters li a {
+   background: #000;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   text-decoration: none;
+   vertical-align: middle;
+   border: none;
+}
+.defaultbtn:hover, .btn:hover, #searchsubmit:hover, #submit:hover, .submit:hover, .post-edit-link:hover, .more-link:hover, input[type="submit"]:hover, ul#filters li a:hover {
+   background: #333;
+}
+.defaultbtn:active, .btn:active, .defaultbtn:active, #searchsubmit:active, #submit:active, .submit:active, .post-edit-link:active, .more-link:active, input[type="submit"]:active, ul#filters li a:active {
+   background: #000;
+   color: #ccc;
+}

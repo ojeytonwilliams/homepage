@@ -1,0 +1,22 @@
+/*
+Theme Name:     My Child Theme
+Theme URI:      http: //www.presscoders.com/designfolio
+Description:    Child theme for the Designfolio theme
+Author:         Your name here
+Author URI:     http: //www.presscoders.com/
+Template:       designfolio
+Version:        0.1.0
+*/
+
+@import url("../designfolio/style.css");
+
+#header {
+	height: 150px;
+}
+
+/* This needs to be more specific than #header-container since that is
+defined in default.css, which is loaded later.  Not sure about
+footer-widget-container since it doesn't seem to be in use. */
+div #header-container, .footer-widget-container {
+	background: #E01B6A;
+}

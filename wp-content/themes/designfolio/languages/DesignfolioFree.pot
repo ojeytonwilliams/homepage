@@ -1,0 +1,723 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Designfolio Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-11 09:52-0000\n"
+"PO-Revision-Date: 2012-05-11 09:53-0000\n"
+"Last-Translator: David Gwyer <d.v.gwyer@presscoders.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././404.php:20
+msgid "Error 404 - Page not found!"
+msgstr ""
+
+#: .././404.php:24
+msgid "Apologies, but the page you trying to reach does not exist, or has been moved. Why not try going back to the "
+msgstr ""
+
+#: .././404.php:24
+msgid "home page"
+msgstr ""
+
+#: .././404.php:24
+msgid ", using the menus, or searching for something more specific?"
+msgstr ""
+
+#: .././comments.php:5
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: .././comments.php:18
+#: .././comments.php:29
+msgid "Older Comments"
+msgstr ""
+
+#: .././comments.php:19
+#: .././comments.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: .././comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: .././functions.php:53
+msgid "Navy"
+msgstr ""
+
+#: .././functions.php:54
+msgid "Black"
+msgstr ""
+
+#: .././loop.php:54
+msgid "Read More"
+msgstr ""
+
+#: .././loop.php:65
+msgid "&laquo; Older Posts"
+msgstr ""
+
+#: .././loop.php:66
+msgid "Newer Posts &raquo;"
+msgstr ""
+
+#: .././api/classes/api.php:359
+msgid "Primary Navigation"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:38
+#: .././api/classes/meta_boxes.php:39
+msgid "SEO Settings"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:59
+msgid "Post Display Options"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:60
+msgid "Page Display Options"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:63
+msgid "Portfolio Display Options"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:64
+msgid "Slide Display Options"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:71
+#: .././api/classes/meta_boxes.php:72
+msgid "Sidebar Commander"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:84
+#: .././api/classes/meta_boxes.php:87
+msgid "Content Templates"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:273
+msgid "Primary Sidebar"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:276
+msgid "Main Content Area"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:280
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:290
+#, php-format
+msgid "%1$s%2$sAdd any widget area to the %3$sprimary%4$s sidebar of this %5$s by clicking the checkboxes. Drag and drop to dynamically reorder them. %6$sThe content for each widget area is controlled on the %7$sWidgets%8$s page."
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:340
+#, php-format
+msgid "%1$s%2$sAdd any widget area to the %3$smain content%4$s area of this %5$s by clicking the checkboxes. Drag and drop to dynamically reorder them. %6$sThe content for each widget area is controlled on the %7$sWidgets%8$s page."
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:389
+#, php-format
+msgid "%1$s%2$sAdd any widget area to the %3$ssecondary%4$s sidebar of this %5$s by clicking the checkboxes. Drag and drop to dynamically reorder them. %6$sThe content for each widget area is controlled on the %7$sWidgets%8$s page."
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:490
+msgid "Column layout"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:492
+msgid "(Default theme setting)"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:493
+msgid "1-Column (full width)"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:494
+msgid "2-Column Sidebar Left"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:495
+msgid "2-Column Sidebar Right"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:496
+msgid "3-Column Sidebars Left"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:497
+msgid "3-Column Sidebars Right"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:498
+msgid "3-Column Content Center"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:530
+msgid "Portfolio group"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:551
+msgid "Portfolio image size"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:553
+msgid "Large"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:554
+msgid "Medium"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:555
+msgid "Small"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:615
+msgid "Page Title"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:619
+msgid "Content Description"
+msgstr ""
+
+#: .././api/classes/meta_boxes.php:623
+msgid "SEO Keywords"
+msgstr ""
+
+#: .././api/classes/shortcodes.php:134
+msgid "Please add your testimonial in-between opening and closing tags: e.g. &#91;testimonial&#93;Your testimonial here..&#91;/testimonial&#93;"
+msgstr ""
+
+#: .././api/classes/shortcodes.php:228
+msgid "Please add your content in-between opening and closing box tags: e.g. &#91;box&#93;Your content here..&#91;/box&#93;"
+msgstr ""
+
+#: .././api/classes/shortcodes.php:270
+msgid "Button Text"
+msgstr ""
+
+#: .././api/classes/shortcodes.php:287
+#: .././api/classes/shortcodes.php:302
+#: .././api/classes/shortcodes.php:317
+#: .././api/classes/shortcodes.php:332
+#: .././api/classes/shortcodes.php:347
+#: .././api/classes/shortcodes.php:362
+#: .././api/classes/shortcodes.php:377
+#: .././api/classes/shortcodes.php:393
+#: .././api/classes/shortcodes.php:409
+#: .././api/classes/shortcodes.php:425
+msgid "No content specified. Add content in-between the opening and closing shortcode tags."
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:42
+msgid "Add Custom Widget Area"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:66
+msgid "Custom Widget Area"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:80
+msgid "Name"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:81
+msgid "Options"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:84
+msgid "Widget Area Type"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:86
+#: .././api/classes/sidebar_commander.php:204
+msgid "Sidebar"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:87
+#: .././api/classes/sidebar_commander.php:200
+msgid "Main Content"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:126
+msgid "Add New"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:197
+msgid "Before Content"
+msgstr ""
+
+#: .././api/classes/sidebar_commander.php:216
+msgid "custom widget area type."
+msgstr ""
+
+#: .././api/classes/template_parts.php:29
+#: .././api/classes/widgets/widget-theme-recent-posts.php:59
+msgid "Read more"
+msgstr ""
+
+#: .././api/classes/template_parts.php:30
+#: .././api/classes/template_parts.php:62
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: .././api/classes/template_parts.php:31
+#: .././api/classes/template_parts.php:63
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: .././api/classes/template_parts.php:61
+msgid "Read more..."
+msgstr ""
+
+#: .././api/classes/template_parts.php:255
+msgid "Edit"
+msgstr ""
+
+#: .././api/classes/template_parts.php:278
+msgid "Search results.."
+msgstr ""
+
+#: .././api/classes/template_parts.php:320
+msgid "No search results found.."
+msgstr ""
+
+#: .././api/classes/template_parts.php:321
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords. Or, choose from the links below to navigate to another page."
+msgstr ""
+
+#: .././api/classes/template_parts.php:326
+msgid "Pages"
+msgstr ""
+
+#: .././api/classes/template_parts.php:333
+msgid "Post Categories"
+msgstr ""
+
+#: .././api/classes/utility.php:964
+msgid "This widget area is currently empty. You can add widgets to this area via: Appearance => Widgets."
+msgstr ""
+
+#: .././api/classes/widgets.php:72
+msgid "Global"
+msgstr ""
+
+#: .././api/classes/widgets.php:74
+msgid "These widgets appear at the top of the primary sidebar on ALL posts/pages"
+msgstr ""
+
+#: .././api/classes/widgets.php:84
+msgid "Post: Primary"
+msgstr ""
+
+#: .././api/classes/widgets.php:86
+msgid "The primary single post, and main blog page, widget area"
+msgstr ""
+
+#: .././api/classes/widgets.php:96
+msgid "Post: Secondary"
+msgstr ""
+
+#: .././api/classes/widgets.php:98
+msgid "The secondary single post widget area. Only displayed on three-column post layouts."
+msgstr ""
+
+#: .././api/classes/widgets.php:108
+msgid "Page: Primary"
+msgstr ""
+
+#: .././api/classes/widgets.php:110
+msgid "The primary single page widget area"
+msgstr ""
+
+#: .././api/classes/widgets.php:120
+msgid "Page: Secondary"
+msgstr ""
+
+#: .././api/classes/widgets.php:122
+msgid "The secondary single page widget area. Only displayed on three-column page layouts."
+msgstr ""
+
+#: .././api/classes/widgets.php:132
+#: .././includes/admin/theme_options_form.php:129
+msgid "Header"
+msgstr ""
+
+#: .././api/classes/widgets.php:134
+msgid "The header widget area"
+msgstr ""
+
+#: .././api/classes/widgets.php:144
+msgid "Footer"
+msgstr ""
+
+#: .././api/classes/widgets.php:146
+msgid "The footer widget area"
+msgstr ""
+
+#: .././api/classes/widgets.php:156
+msgid "Front Page: Main Content"
+msgstr ""
+
+#: .././api/classes/widgets.php:158
+msgid "The front page main content widget area"
+msgstr ""
+
+#: .././api/classes/widgets.php:168
+msgid "Front Page: Before Content"
+msgstr ""
+
+#: .././api/classes/widgets.php:170
+msgid "Front page full width widgets, displayed before main content or sidebars. The slider widget works great here!"
+msgstr ""
+
+#: .././api/classes/widgets/widget-blog-style-recent-posts.php:10
+msgid "Recent posts similar to your main blog page. Add to the front page main content widget area."
+msgstr ""
+
+#: .././api/classes/widgets/widget-blog-style-recent-posts.php:11
+msgid "Blog Style Recent Posts"
+msgstr ""
+
+#: .././api/classes/widgets/widget-blog-style-recent-posts.php:25
+#: .././api/classes/widgets/widget-news-ticker.php:29
+#: .././api/classes/widgets/widget-theme-recent-posts.php:22
+#: .././api/classes/widgets/widget-tml.php:34
+msgid "Title:"
+msgstr ""
+
+#: .././api/classes/widgets/widget-blog-style-recent-posts.php:37
+#: .././api/classes/widgets/widget-news-ticker.php:35
+#: .././api/classes/widgets/widget-theme-recent-posts.php:27
+msgid "Number of posts to show:"
+msgstr ""
+
+#: .././api/classes/widgets/widget-blog-style-recent-posts.php:39
+msgid "Show Post Thumbnails?"
+msgstr ""
+
+#: .././api/classes/widgets/widget-color-scheme-switcher.php:14
+msgid "Allow your site visitors to change the theme color scheme dynamically!"
+msgstr ""
+
+#: .././api/classes/widgets/widget-color-scheme-switcher.php:15
+msgid "Color Switcher"
+msgstr ""
+
+#: .././api/classes/widgets/widget-color-scheme-switcher.php:21
+msgid "Change Color Scheme"
+msgstr ""
+
+#: .././api/classes/widgets/widget-color-scheme-switcher.php:21
+msgid "Try out a new color scheme. Select below to see an instant change!"
+msgstr ""
+
+#: .././api/classes/widgets/widget-color-scheme-switcher.php:26
+#: .././api/classes/widgets/widget-info-box.php:65
+#: .././api/classes/widgets/widget-testimonial.php:23
+#: .././api/classes/widgets/widget-twitter-feed.php:28
+msgid "Title"
+msgstr ""
+
+#: .././api/classes/widgets/widget-color-scheme-switcher.php:27
+#: .././api/classes/widgets/widget-info-box.php:70
+msgid "Description"
+msgstr ""
+
+#: .././api/classes/widgets/widget-color-scheme-switcher.php:75
+msgid "Color Scheme"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:11
+msgid "Display phone number, and twitter/facebook links."
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:12
+msgid "Info Box"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:75
+msgid "Phone Number"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:86
+msgid "Facebook ID"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:91
+#: .././api/classes/widgets/widget-twitter-feed.php:29
+msgid "Twitter ID"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:96
+msgid "YouTube ID"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:101
+msgid "Flickr ID"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:106
+msgid "Pinterest ID"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:111
+msgid "Google+ URL"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:116
+msgid "Linked In URL"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:121
+msgid "RSS URL"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:129
+msgid "Link URL"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:134
+msgid "Image URL"
+msgstr ""
+
+#: .././api/classes/widgets/widget-info-box.php:139
+msgid "Show Search?"
+msgstr ""
+
+#: .././api/classes/widgets/widget-news-ticker.php:10
+msgid "A news ticker to display your most recent content."
+msgstr ""
+
+#: .././api/classes/widgets/widget-news-ticker.php:38
+msgid "Pause time between items:"
+msgstr ""
+
+#: .././api/classes/widgets/widget-testimonial.php:11
+msgid "Showcase customer testimonials. e.g. [testimonial name=\"John Smith\" company=\"Acme Inc.\"]..[/testimonial]"
+msgstr ""
+
+#: .././api/classes/widgets/widget-testimonial.php:13
+#: .././api/classes/widgets/widget-tml.php:11
+msgid "Testimonials"
+msgstr ""
+
+#: .././api/classes/widgets/widget-testimonial.php:24
+msgid "Testimonial Shortcodes"
+msgstr ""
+
+#: .././api/classes/widgets/widget-theme-recent-posts.php:10
+msgid "An alternative way to display recent posts. The post title, excerpt, and read more link are shown."
+msgstr ""
+
+#: .././api/classes/widgets/widget-theme-recent-posts.php:11
+msgid "Recent Posts Excerpt"
+msgstr ""
+
+#: .././api/classes/widgets/widget-tml.php:10
+msgid "Display a list of testimonials by group."
+msgstr ""
+
+#: .././api/classes/widgets/widget-tml.php:28
+msgid "No testimonial groups found. New groups can be added via Testimonials -> Testimonial Groups."
+msgstr ""
+
+#: .././api/classes/widgets/widget-tml.php:38
+msgid "Description:"
+msgstr ""
+
+#: .././api/classes/widgets/widget-tml.php:42
+msgid "Display testimonial group:"
+msgstr ""
+
+#: .././api/classes/widgets/widget-tml.php:58
+msgid "Max number of testimonials"
+msgstr ""
+
+#: .././api/classes/widgets/widget-tml.php:62
+msgid "Show random testimonials?"
+msgstr ""
+
+#: .././api/classes/widgets/widget-twitter-feed.php:11
+msgid "Show your latest tweets."
+msgstr ""
+
+#: .././api/classes/widgets/widget-twitter-feed.php:12
+msgid "Twitter Feed"
+msgstr ""
+
+#: .././api/classes/widgets/widget-twitter-feed.php:30
+msgid "Number of Tweets"
+msgstr ""
+
+#: .././api/classes/widgets/widget-twitter-feed.php:31
+msgid "Show Timestamp?"
+msgstr ""
+
+#: .././api/classes/widgets/widget-twitter-feed.php:63
+#, php-format
+msgid "Please enter a Twitter ID in the %s Twitter Feed widget options."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:17
+#, php-format
+msgid "%s theme options have been reset!"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:25
+#, php-format
+msgid "%s theme options updated!"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:117
+msgid "Theme Appearance"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:118
+#: .././includes/admin/theme_options_form.php:232
+msgid "General Settings"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:131
+msgid "Change your site description display settings."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:138
+msgid "Hide site description"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:139
+msgid "Check this box to hide the text that is displayed next to your site title or company logo. Modify this text under Settings > General."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:150
+msgid "Custom Colors and Layout"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:152
+msgid "Customize your site colors, and column layout for posts/pages."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:166
+msgid "Default Page Layout"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:167
+msgid "This can be overridden for individual posts/pages."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:182
+msgid "Custom CSS"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:184
+msgid "Add custom CSS here to override default styles."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:206
+msgid "Miscellaneous Options"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:208
+msgid "Various options that affect the theme appearance."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:215
+msgid "Show Twitter/Facebook Buttons?"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:234
+msgid "Change the admin e-mail."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:240
+msgid "Admin E-mail:"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:241
+msgid "The contact form page template sends emails to this address."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:252
+msgid "Header &amp; Footer Inserts"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:254
+msgid "Easily insert your analytics code, scripts, etc."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:260
+msgid "Header Insert"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:260
+msgid "Any HTML you add here will be inserted into your site's header, right before the closing head tag."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:263
+msgid "Footer Insert"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:263
+msgid "Any HTML you add here will be inserted right before the closing body tag."
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:278
+msgid "Footer Links"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:281
+msgid "Reset footer links"
+msgstr ""
+
+#: .././includes/admin/theme_options_form.php:289
+msgid "Save Changes"
+msgstr ""
+
+#: .././includes/classes/theme_specific_utility_callbacks.php:131
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: .././includes/classes/theme_specific_utility_callbacks.php:134
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: .././includes/classes/theme_specific_utility_callbacks.php:141
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: .././includes/classes/theme_specific_utility_callbacks.php:141
+#: .././includes/classes/theme_specific_utility_callbacks.php:159
+msgid "(Edit)"
+msgstr ""
+
+#: .././includes/classes/theme_specific_utility_callbacks.php:159
+msgid "Pingback:"
+msgstr ""
+
+#: .././includes/sidebars/front_page_primary_default_widgets.php:30
+msgid "[testimonial name=\"Scott Bolinger\" company=\"PressCoders.com\"]"
+msgstr ""
+
+#: .././includes/sidebars/primary_page_generic_default_widgets.php:17
+#: .././includes/sidebars/primary_post_generic_default_widgets.php:17
+msgid "Archives"
+msgstr ""
+
+#: .././includes/sidebars/primary_page_generic_default_widgets.php:24
+#: .././includes/sidebars/primary_post_generic_default_widgets.php:24
+msgid "Meta"
+msgstr ""
+

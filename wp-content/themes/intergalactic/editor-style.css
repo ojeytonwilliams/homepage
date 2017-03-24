@@ -1,0 +1,9 @@
+/*
+Theme Name: Intergalactic
+Description: Used to style the TinyMCE editor.
+*/
+
+img {
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Intergalactic Child
+ Theme URI:    http://olivereytonwilliams.co.uk/intergalactic-child
+ Description:  Intergalactic Child Theme
+ Author:       Oliver Eyton-Williams
+ Author URI:   http://olivereytonwilliams.co.uk
+ Template:     intergalactic
+ Version:      1.0.0
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags: 	       photoblogging, dark, black, white, one-column, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, post-formats, rtl-language-support, translation-ready, fixed-layout, responsive-layout, accessibility-ready
+
+ Text Domain:  intergalactic-child
+*/
+
+@media (max-width: 768px) {
+  nav.navbar {
+    display: none;
+  }
+}
+
+button.menu-toggle {
+  position: fixed;
+  right: 0px;
+}
+/* Large screens */
+@media screen and (min-width: 768px) {
+  .menu-toggle.x.toggle-on {
+    border: 1px solid #222;
+    background: #222;
+    right: 650px;
+    transition: 0.3s all ease-in-out;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .menu-toggle {
+    width: 40px;
+    height: 40px;
+    padding: 12px 6px;
+    border: 1px solid #222;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .menu-toggle.x.toggle-on .lines:before, .menu-toggle.x.toggle-on .lines:after {
+    background: white;
+  }
+}

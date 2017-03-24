@@ -1,0 +1,112 @@
+/* Page/Post Sidebar Commander */
+
+ul#primary_widget_areas li, ul#secondary_widget_areas li, ul#main_content_widget_areas li {
+    background: url(../images/widget-area-bg.png) no-repeat center;
+    cursor: pointer;
+    font-size: 1.17em;
+    width: 275px;
+    border: none;
+    height: 26px;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 10px;
+	cursor: move;
+}
+
+ul#primary_widget_areas label, ul#secondary_widget_areas label, ul#main_content_widget_areas label {
+	color: #464646;
+	float: right;
+	font-size: 1.17em;
+	font-weight: normal;
+	margin: 0;
+	overflow: hidden;
+	padding: 1px 0;
+	white-space: nowrap;
+	width: 225px;
+	cursor: move;
+	line-height: 1.6em;
+	font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+}
+
+ul#primary_widget_areas input[type="checkbox"], ul#secondary_widget_areas input[type="checkbox"], ul#main_content_widget_areas input[type="checkbox"] {
+float: right;
+margin: 1px 35px 0 0;
+width: 0px;
+height: 26px;
+}
+
+#primary-sidebar-widget-order, #secondary-sidebar-widget-order, #main-content-sidebar-widget-order {
+    overflow: hidden;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 15px;
+	width: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    clear: left;
+    background: #fff;
+}
+
+#primary_widget_areas, #secondary_widget_areas, #main_content_widget_areas {
+    list-style-type: none;
+    margin: 5px 10px 0px 0px;
+    padding: 0;
+    float: left;
+}
+
+.primary_widget-area-heading, .secondary_widget-area-heading, .main_content_widget-area-heading {
+    font-size:16px;
+    font-weight: bold;
+    margin: 0px 0px 10px 5px;
+}
+
+.primary_widget-area-heading {
+    width: 182px;
+}
+
+.secondary_widget-area-heading {
+    width: 206px;
+}
+
+.main_content_widget-area-heading {
+    width: 205px;
+}
+
+.column_message {
+  color: #777;
+  font-style: italic;
+  margin: 0px 0 7px 6px;
+  padding-top: 4px;
+  width: 48%;
+  float: left;
+}
+
+ul#primary_widget_areas li.ui-state-highlight, ul#secondary_widget_areas li.ui-state-highlight, ul#main_content_widget_areas li.ui-state-highlight {
+    background: #fff799;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	width: 275px;
+}
+
+.underline {
+    color: #222;
+}
+
+#page-sidebar-commander ul.tabs { 
+	list-style:none; 
+	margin: 0 0 0 10px; 
+	padding:0;		
+	height:30px;
+    font-weight: bold;
+}
+
+.layouticon {
+float: left;
+margin: 0 8px 5px 0;
+}
+
+/* SEO meta box styles */
+#seosettings input, #seosettings textarea {
+width: 100%;
+}

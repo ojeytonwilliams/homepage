@@ -1,0 +1,1 @@
+Make sure to update the breadcrumb textdomain with 'presscoders'.

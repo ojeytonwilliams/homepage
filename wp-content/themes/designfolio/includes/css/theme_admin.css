@@ -1,0 +1,305 @@
+/** Press Coders Theme Admin Styles **/
+
+.clearrt {
+clear: right;
+}
+
+.line {
+clear: both;
+display: block;
+padding-top: 15px;
+border-bottom: 1px solid #dfdfdf;
+margin-bottom: 15px;
+}
+
+.optionslogo {
+margin: 8px 0;
+}
+
+.pc_settings {
+padding-top: 10px;
+width: 800px;
+}
+
+.pc_settings #icon-themes {
+display: none;
+}
+
+.pc_settings span.submit {
+float: left;
+}
+
+#pc-theme-options-reset {
+float: right;
+margin-top: 22px;
+}
+
+.optionsicon {
+float: left;
+display: block;
+margin-right: 8px;
+position: relative;
+top: 8px;
+padding-bottom: 10px;
+}
+
+#accordion {
+width: 800px;
+margin-top: 5px;
+}
+
+.ui-accordion .ui-accordion-header a {
+font-size: 14px;
+font-weight: bold;
+}
+
+.ui-helper-reset {
+line-height: 1.7;
+}
+
+#bluetabs input[type="checkbox"] {
+margin-right: 5px;
+height: 20px;
+}
+
+#bluetabs select {
+background: #eee;
+}
+
+.postbox .hndle span {
+height: 8px;
+}
+
+.tts_table {
+	border-spacing: 20px 10px;
+}
+
+.tts_table th {
+	padding: 2px 0px 2px 7px;
+	font-size: 14px;
+	text-align:left;
+	background-color: #ddd;
+}
+
+td.line {
+border-bottom: 1px solid #ccc;
+height: 1px;
+}
+
+input.gray, textarea.gray {
+background: #eee;
+width: 320px;
+}
+
+.pc_settings textarea {
+font-family: Consolas, Monaco, monospace;
+}
+
+/* theme options jQuery toggle defaults */
+tr#theme_options_custom_logo,
+tr#theme_options_show_recent_posts-1,
+tr#theme_options_show_recent_posts-2,
+tr#theme_options_show_recent_posts-3 {
+	display: none;
+}
+
+.gray-wide-textarea {
+background: #eee;
+width: 725px;
+}
+
+input#upload_image {
+	font-size:0.85em;
+}
+
+input#update_logo {
+	display: none;
+	color: red;
+	font-weight: bold;
+}
+
+/* align right */
+.ar {
+	text-align: right;
+}
+
+/* Blue Tabs CSS */
+
+#bluetabs ul.tabs {
+list-style:none; 
+margin: 0 0 10px 0; 
+padding:0;		
+height:35px;
+font-weight: bold;
+}
+
+#bluetabs ul.tabs li {
+text-shadow: 0 1px 0 #333;
+}
+
+#bluetabs ul.tabs li a {
+padding: 0 30px;
+line-height: 34px;
+background: url("../admin/images/bluetabs-bg.png") no-repeat;
+border-right: 1px solid #36668b;
+color: #fff;
+}
+
+#bluetabs ul.tabs li.middle a {
+background-position: -20px -1px;
+}
+
+#bluetabs ul.tabs li.middle a:hover, #bluetabs ul.tabs li.middle a.current {
+background-position: -20px -39px;
+}
+
+#bluetabs ul.tabs li.first a {
+background-position: left -1px;
+}
+
+#bluetabs ul.tabs li.first a:hover, #bluetabs ul.tabs li.first a.current {
+background-position: left -39px;
+}
+
+#bluetabs ul.tabs li.last a {
+background-position: right -1px;
+border-right: none;
+}
+
+#bluetabs ul.tabs li.last a:hover, #bluetabs ul.tabs li.last a.current {
+background-position: right -39px;
+}
+
+#bluetabs .panes div.tabcontent {
+border: 1px solid #DFDFDF;
+background: #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 20px;
+max-width: 800px;
+overflow: hidden;
+}
+
+#bluetabs .ltinfo {
+float: left;
+display: block;
+width: 220px;
+padding: 0 10px 0 0;
+margin: 0;
+}
+
+#bluetabs .ltinfo p {
+color: #333;
+font-style: italic;
+}
+
+#bluetabs .rtoptions {
+float: left;
+display: block;
+max-width: 545px;
+padding: 0 0 0 15px;
+border-left: 1px solid #DFDFDF;
+min-height: 100px;
+}
+
+.tabcontent .box {
+display: block;
+clear: right;
+padding: 0;
+margin: 15px 0;
+}
+
+/* Tooltips */
+
+.tooltip {
+display:none;
+background-color:#ffa;
+border:1px solid #cc9;
+padding:5px;
+font-size:13px;
+max-width: 400px;
+-moz-box-shadow: 2px 2px 11px #666;
+-webkit-box-shadow: 2px 2px 11px #666;
+cursor: help;
+}
+
+.tooltipimg {
+display: inline;
+cursor: help;
+}
+
+/* jQuery Tools Tabs CSS */
+
+
+/* tab pane styling */
+.panes div.tabcontent {
+	display:none;		
+	padding:15px 10px;
+	border-top:0;
+	height:100%;
+	font-size:14px;
+	width: auto;
+}
+
+/* root element for tabs  */
+ul.tabs { 
+	list-style:none; 
+	margin:0; 
+	padding:0;		
+	height:30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: block;
+    width: 400px;
+}
+
+/* single tab */
+ul.tabs li { 
+	float:left;	 
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none; 
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a { 
+	display:block;
+	text-align:center;	
+	text-decoration:none;
+	padding:0px;
+	margin:0px;	
+	position:relative;
+	top:1px;
+}
+
+ul.tabs a:active {
+	outline:none;		
+}
+
+/* initially all panes are hidden */ 
+.panes .pane {
+	display:none;		
+}
+
+/* PC Buttons */
+
+#pc-buttons {
+width: 330px;
+float: right;
+}
+
+#pc-buttons .pc-lower {
+position: relative;
+top: 10px;
+}
+
+.pc-icon {
+display: block;
+float: right;
+}

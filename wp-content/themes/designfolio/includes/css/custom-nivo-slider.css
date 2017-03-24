@@ -1,0 +1,144 @@
+/*==============================================*/
+/*=== PressCoders.com - Custom Slider Styles ===*/
+/*==============================================*/
+.slider-wrapper {
+    width:100%;
+    height:298px;
+    margin-bottom:15px;
+    padding-bottom: 0;
+}
+
+#before-content .slider-wrapper, #before-content .slider {
+width: 918px;
+margin: 0 auto;
+}
+
+.slider-wrapper.full img {
+min-width: 918px;
+}
+
+.slider-wrapper.third .nivo-controlNav {
+display: none;
+}
+
+.footer-widget-container .slider-wrapper {
+width: 213px;
+float: left;
+margin: 20px 20px 20px 0;
+}
+
+/* Force the Nivo slider to fit the theme CSS, without having to add another image size. */
+.footer-widget-container .nivoSlider {
+width: 213px !important;
+}
+
+.slider-wrapper ul { 
+list-style-type: none;
+background-image: none;
+margin: 0;
+padding: 0;
+}
+
+.slider {
+	position:relative;
+    width:100%;
+    height:298px;
+}
+.slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left: 45%;
+	bottom: -30px;
+	max-width: 180px;
+	height: 18px;
+	overflow: hidden;
+}
+
+.nivo-controlNav a {
+	display:none;
+}
+
+.nivo-controlNav a.active {
+	background-position:0 -23px;
+}
+
+.nivo-directionNav a {
+	width:10px;
+	height:10px;
+	background-image: url(../../api/images/icons/slider-arrows.png);
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+	display: block;
+	padding: 10px;
+	-webkit-box-shadow: 0 1px 3px #333;
+	-moz-box-shadow: 0 1px 3px #333;
+	box-shadow: 0 1px 3px #333;
+}
+a.nivo-nextNav {
+	background-position: -15px 5px;
+	right:-5px;
+}
+a.nivo-prevNav {
+	background-position: 5px 5px;
+	left:-5px;
+}
+
+.nivo-caption {
+    position: absolute;
+    margin: 0 5%;
+    width: 90%;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+    opacity: 0.7;
+    display: none;
+}
+.nivo-caption a { 
+    text-decoration:none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nivo-caption p {
+	padding: 15px;
+	margin: 0;
+	line-height: 24px;
+	overflow: hidden;
+}
+
+.sliderdate {
+font-style: italic;
+margin-right: 5px;
+}
+
+.nivo-caption .slidertitle {
+float: left;
+display: block;
+margin-right: 10px;
+line-height: 22px;
+}
+
+.slider-wrapper.third .nivo-controlNav, .slider-wrapper.third .nivo-controlNav a {
+display: none;
+}
+
+footer .slider-wrapper .nivo-caption {
+overflow: hidden;
+width: 86%;
+margin: 0 7%;
+}
+
+/* Turn off slider until the page has been fully loaded */
+.slider-wrapper {
+	display: none;
+}

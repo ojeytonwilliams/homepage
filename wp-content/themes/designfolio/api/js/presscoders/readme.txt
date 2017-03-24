@@ -1,0 +1,1 @@
+This directory holds the custom js (jQuery etc.) developed by Press Coders for our WordPress framework.
