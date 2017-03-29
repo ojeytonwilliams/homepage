@@ -1,4 +1,5 @@
 *.log
+*.sql*
 wp-config.php
 wp-content/advanced-cache.php
 wp-content/backup-db/
@@ -11,7 +12,8 @@ wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
 
 /composer.lock
-.htaccess
+/.htaccess
+/Movefile
 /license.txt
 /readme.html
 /sitemap.xml
