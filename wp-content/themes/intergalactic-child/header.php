@@ -22,7 +22,7 @@ $header = get_header_image();
 </head>
 
 <body <?php body_class(); ?>>
-	<!-- <?php get_template_part('navbar'); ?> -->
+	<?php # get_template_part('navbar'); ?> 
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'intergalactic' ); ?></a>
 	<header id="masthead" class="site-header" role="banner">

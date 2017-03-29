@@ -17,7 +17,7 @@ function ig_child_enqueue_styles() {
 }
 add_action('wp_enqueue_scripts', 'ig_child_enqueue_styles' );
 add_action('wp_enqueue_scripts', 'ig_child_enqueue_scripts' );
-add_action('wp_head', 'show_template');
+# add_action('wp_head', 'show_template');
 function show_template() {
 	global $template;
 	print_r($template);
